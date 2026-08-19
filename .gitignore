@@ -1,0 +1,26 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 运行输出结果
+eval_result.csv
+*.csv
+
+# 环境配置
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
