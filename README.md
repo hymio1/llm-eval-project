@@ -1,4 +1,4 @@
-<img width="2212" height="508" alt="image" src="https://github.com/user-attachments/assets/96b445d2-817b-4ce2-965d-ae347a175a90" /># llm‑eval‑project
+llm‑eval‑project
 > 轻量级 LLM‑as‑Judge 大模型自动评测工具，适合大模型效果验证、批量自动化评估。
 
 ## 项目简介
