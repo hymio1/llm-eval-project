@@ -42,9 +42,9 @@ python test_llm_eval.py
 
 ### 运行示例
 控制台输出：
-<img width="1718" height="784" alt="image" src="https://github.com/user-attachments/assets/31e672bf-b43b-4513-8381-7082cb453adc" />
+<img width="2543" height="1520" alt="image" src="https://github.com/user-attachments/assets/a874f0d3-d679-45b0-a0cd-56dc49e76649" />
 评测结果CSV报表：
-<img width="2212" height="508" alt="image" src="https://github.com/user-attachments/assets/77ab9722-a179-4b1e-bb99-31a9e8c3099d" />
+<img width="2361" height="221" alt="image" src="https://github.com/user-attachments/assets/8dd31c9e-9e08-4855-aff6-994cd7b0ce46" />
 
 ## 项目难点与实现亮点
 1. **模型输出不稳定兼容处理**：大模型经常返回 ```json```、多余解释文字，通过正则剥离 markdown 标记，再解析 JSON，提升评判结果解析成功率。
