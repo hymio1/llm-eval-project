@@ -1,4 +1,4 @@
-# llm‑eval‑project
+<img width="2212" height="508" alt="image" src="https://github.com/user-attachments/assets/96b445d2-817b-4ce2-965d-ae347a175a90" /># llm‑eval‑project
 > 轻量级 LLM‑as‑Judge 大模型自动评测工具，适合大模型效果验证、批量自动化评估。
 
 ## 项目简介
@@ -39,6 +39,12 @@ pip install openai
 python test_llm_eval.py
 ```
 4. 执行结束，项目目录生成 `eval_result.csv`，保存每条用例的问题、标准答案、模型回答、得分、幻觉标记、评判评语。控制台打印汇总统计。
+
+### 运行示例
+控制台输出：
+<img width="1718" height="784" alt="image" src="https://github.com/user-attachments/assets/31e672bf-b43b-4513-8381-7082cb453adc" />
+评测结果CSV报表：
+<img width="2212" height="508" alt="image" src="https://github.com/user-attachments/assets/77ab9722-a179-4b1e-bb99-31a9e8c3099d" />
 
 ## 项目难点与实现亮点
 1. **模型输出不稳定兼容处理**：大模型经常返回 ```json```、多余解释文字，通过正则剥离 markdown 标记，再解析 JSON，提升评判结果解析成功率。
